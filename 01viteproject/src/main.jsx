@@ -35,7 +35,7 @@ const reactElement = React.createElement(
   { href: "https://google.com", target: "_blank" },
   "Click To Visit Google",
   " ",
-  userName
+  userName // evaluated expression
 );
 
 ReactDOM.createRoot(document.getElementById("root")).render(reactElement);
